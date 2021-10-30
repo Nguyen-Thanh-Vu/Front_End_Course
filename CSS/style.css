@@ -1,0 +1,283 @@
+#wrapper{
+    background-color: #FFF0F5;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.section__img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    background-position: center center;
+}
+.clear{
+    clear: both;
+}
+
+/* START HEADER CSS */
+.header{
+    background-color: #f8e1db;
+    padding: 10px 70px;
+}
+
+/* Logo */
+.logo{
+    background-image: url(../img/logoicon.png);
+    width: 60px;
+    height: 60px;
+}
+/* End Logo */
+
+/* Navbar */
+.navbar ul{
+    list-style: none;
+    margin-top: 20px;
+}
+.navbar ul li{
+    display: inline;
+    margin-right: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+.navbar span{
+    color: orange;
+}
+/* End Navbar */
+
+/* END HEADER CSS */
+
+/* START CAROUSE CSS*/
+.carousel{
+    background-image: url(../img/BG.png);
+    height: 600px;
+    border-radius: 0 0 200px 200px;
+    position: relative;
+}
+.carousel__content{
+    width: 100%;
+    position: absolute;
+    bottom: -110px;
+}
+.carousel__content__list{
+    float: left;
+    width: 25%;
+    height: 230px;
+    padding: 10px;
+    background-clip: content-box;
+    background-color: #fff;
+    color: gray;
+    border-radius: 50px;
+    text-align: center;
+}
+.carousel__content__list img{
+    padding-top: 27px;
+    width: 85px;
+    height: 110px;
+}
+.carousel__content__list__text{
+    padding: 0px 60px 0px 60px;
+}
+
+/* END CAROUSE CSS */
+
+/* START DESTINATION CSS */
+.destination__title{
+    text-align: center;
+    padding-top: 200px;
+}
+.destination__title__img img{
+    width: 100px;
+    height: 100px;
+}
+.destination__title h1{
+    color: gray;
+}
+.destination__list__up, .destination__list__down{
+    width: 100%;
+    padding-top: 20px;
+}
+.destination__item{
+    float: left;
+    width: 25%;
+    height: 450px;
+    padding: 15px 15px;
+    background-color: #fff;
+    background-clip: content-box;
+    color: gray;
+    border-radius: 50px;
+    text-align: center;
+}
+.destination__item__img{
+    margin: 40px 40px 20px 40px;
+    height: 180px;
+    border-radius: 25px;
+}
+.destination__icon{
+    background: rgba(243, 245, 243, 0.7);
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    position: relative;
+    top: 20px;
+    left: 200px;
+}
+.icon__heart{
+    color: red;
+    font-size: 20px;
+    position: absolute;
+    top: 16px;
+    left: 15px;
+}
+.destination__text{
+    padding: 0px 40px 0 40px;
+}
+.destination__text h3{
+    color: black;
+}
+.destination__btn button{
+    margin-top: 30px;
+    text-align: center;
+    width: 190px;
+    height: 50px;
+    border-style: none;
+    border-radius: 30px;
+    
+}
+.destination__btn button:hover{
+    background-color:aquamarine;
+    color: black;
+}
+.btn__text{
+    font-size: 18px;
+    color: gray;
+}
+.list__1{
+    background-image: url(../img/product1.png);
+}
+.list__2{
+    background-image: url(../img/product4.png);
+}
+.list__3{
+    background-image: url(../img/product5.png);
+}
+.list__4{
+    background-image: url(../img/product1.png);
+}
+.destination__btn__end {
+    text-align: center;
+}
+.destination__btn__end button{
+    margin: 15px;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: rgb(252, 75, 6);
+    border: 1px solid red;
+    background-color: #fff;
+    border-radius: 30px;
+}
+/* END DESTINATION CSS */
+
+/* START BANNER CSS */
+.banner{
+    background-color: #f8e1db;
+    height: 400px;
+    border-radius: 40px;
+    margin: 10px 0px 20px 0px;
+}
+.banner__list{
+    width: 100%;
+}
+.banner__list__left{
+    width: 40%;
+    float: left;
+}
+.banner__list__left__bg{
+    background-image: url(../img/mask.png);
+    height: 400px;
+    width: 800px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    background-clip: content-box;
+}
+.banner__list__left__icon{
+    position:absolute;
+    top: 20px;
+    left: 65px;
+}
+.banner__list__right{
+    width: 60%;
+    float: left;
+    position: relative;
+}
+.banner__list__right__up{
+    color: gray;
+    position: absolute;
+    top: 65px;
+    right: 90px;
+}
+.titel__1{
+    color: gray;
+    float: left;
+    position: absolute;
+    top: 160px;
+    left: 200px;
+}
+.titel__2{
+    color: gray;
+    position: absolute;
+    top: 160px;
+    right: 250px;
+}
+.icon{
+    color: red;
+    padding: 8px 10px 0px 0px;
+}
+.icon i {
+    font-size: 23px;
+}
+/* END START BANNER CSS */
+
+/* START CONTACT_US CSS */
+.contact__us{
+    background-color: #f8e1db;
+    height: 430px;
+    border-radius: 60px 60px 0px 0px ;
+    margin: 90px 0px 20px 0px;
+}
+.contact__us__list{
+    width: 100%;
+    padding: 80px 80px 0px 60px;
+}
+.contact__us__intro{
+    float: left;
+}
+.contact__us__list__item__1{
+    width: 40%;
+    height: 300px;
+}
+.contact__us__text p{
+    line-height: 30px;
+}
+.contact__us__list__item__2{
+    width: 20%;
+    height: 300px;
+}
+.contact__us__list__item__2{
+    width: 20%;
+    height: 300px;
+}
+.contact__us__list__item__2{
+    width: 20%;
+    height: 300px;
+}
+.end__contact__us{
+    text-align: center;
+}
+/* END CONTACT_US CSS */
